@@ -24,7 +24,7 @@ jobs:
           distribution: temurin
           java-version: "21"
           cache: maven
-          cache-dependency-path: api-odonto/pom.xml
+          cache-dependency-path: pom.xml
 
       - name: Permitir execucao do Maven Wrapper
         run: chmod +x mvnw
