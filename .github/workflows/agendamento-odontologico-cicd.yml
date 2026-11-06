@@ -30,7 +30,7 @@ jobs:
           cache: maven
 
           # O caminho do cache é relativo à raiz do repositório.
-          cache-dependency-path: api-odonto/pom.xml
+          cache-dependency-path: pom.xml
 
       - name: Permitir execucao do Maven Wrapper
         run: chmod +x mvnw
